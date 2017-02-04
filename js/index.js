@@ -1,6 +1,8 @@
 test = function(){
-    if( var width = (window.innerWidth > 0) ? window.innerWidth : screen.width)
+    if( var width = (window.innerWidth > 0) ? window.innerWidth : screen.width){
+        console.log('exiting screen is most likely mobile')
         return;
+    }
     var div = document.body;
     var scrollers = document.getElementsByClassName('scroller');
     div.onscroll = function() {
