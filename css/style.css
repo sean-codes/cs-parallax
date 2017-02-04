@@ -53,7 +53,11 @@ p, a {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
 .info {
     background:#444;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5), 0px -4px 10px rgba(0, 0, 0, 0.5);
