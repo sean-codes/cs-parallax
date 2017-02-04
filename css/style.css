@@ -1,0 +1,65 @@
+body {
+   background: #333;
+   font-family: 'Roboto', sans-serif;
+   width:100%;
+   height:100%;
+}
+body *{
+   box-sizing:border-box;
+}
+p,
+a {
+   color: white;
+   text-align: center;
+}
+
+.container {
+   overflow-y: scroll;
+   max-height:300px;
+   max-width:600px;
+   background: #444;
+   margin: auto;
+   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+::-webkit-scrollbar {
+   width: 5px;
+   background: #333;
+}
+
+::-webkit-scrollbar-thumb {
+   background: #555;
+}
+
+.img1 {
+   background: no-repeat center top url("https://vpph9g.bl3302.livefilestore.com/y3mocp1Fhn_kTJtgn4WdUPIdjMvsvKUiHixj_35qq9hWm8dsc6mj1-H3Q6CuRUCOS9te1SPeInOk2H9FQKJ4wvOFybUeGQ7CQ-hR-mXs2JgTzjHXciG-CwDG5Aj47djBX_PzWW49kGI3eLsu1H4G_joro0mHOfEnkc20uyc0yhxTiE?width=660&height=440&cropmode=none");
+}
+
+.img2 {
+   background: no-repeat center top url("https://vppo9g.bl3302.livefilestore.com/y3mt7KbLST7Cn4ItRTBOpj2vrWOZAPeupRNtRJUIS3GdcWftYSq9b9QUoG0FbckwwELI-ENwvd7101b6oQCqfsBhN2G4MfxI5CxXy8f_fcMAmgZWfcgMp-oLTmA8eQgQVxG90z52SITc9s5TgBkFh_UejRVGI6kEd1qfHozblt43HU?width=660&height=440&cropmode=none");
+}
+
+.img3 {
+   background: no-repeat center top url("https://tuq0gq.bl3302.livefilestore.com/y3mEOsDhlfIwtC-lVBIjL9qdJGo8zLcirDVv3Gk_UwdpRG6x3_AndAp6lK6WKY033lU4z5X9iN5nY7TLVJuSIUWpOscD_NYyBq_VOB49WzWyGTU5fN47XUEBZ7XfhyO_jnbusQuBJ0fNH2klpmiTSLlwauido9BPjvjHHJ92apPQt4?width=660&height=440&cropmode=none");
+}
+
+.parallax {
+   margin-top: 0px;
+   margin-left:auto;
+   margin-right:auto;
+   min-height: 400px;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-cover:cover;
+}
+
+.info{
+   z-index:100;
+   box-shadow:0px 4px 10px rgba(0, 0, 0, 0.5),
+      0px -4px 10px rgba(0, 0, 0, 0.5);
+   padding:20px;
+   margin:0px;
+   position:relative;
+}
+
