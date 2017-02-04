@@ -1,4 +1,6 @@
 test = function(){
+    if( var width = (window.innerWidth > 0) ? window.innerWidth : screen.width)
+        return;
     var div = document.body;
     var scrollers = document.getElementsByClassName('scroller');
     div.onscroll = function() {
