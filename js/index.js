@@ -1,5 +1,5 @@
 test = function(){
-    if( var width = (window.innerWidth > 0) ? window.innerWidth : screen.width){
+    if((window.innerWidth > 0) ? window.innerWidth : screen.width < 1024){
         console.log('exiting screen is most likely mobile')
         return;
     }
